@@ -19,6 +19,8 @@
   - минуты до полуночи = m − minutes
 4.  Вывести результат
 ### Блок-схема
+<img width="528" height="541" alt="Диаграмма6 drawio" src="https://github.com/user-attachments/assets/51b79a9a-67f2-4be6-b030-0bf0ffa945a1" />
+
 ### Результат
 	printf("Время до полудня составляет %d час и %d минут", h1 - hours, m - minutes);
 	printf("Время до полуночи составляет %d час и %d минут", h2 - hours, m - minutes);
