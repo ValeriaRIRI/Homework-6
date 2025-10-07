@@ -15,10 +15,11 @@ int main() {
 	scanf("%d", &hours);
 	printf("Введите данную минуту: ");
 	scanf("%d", &minutes);
-	if ((12 - hours) > 0){
+	if ((h1 - hours) > 0){
 		printf("Время до полудня составляет %d час и %d минут", h1 - hours, m - minutes));
 	}else{
 		printf("Время до полуночи составляет %d час и %d минут", h2 - hours, m - minutes));
 	}
 
 }
+
