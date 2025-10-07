@@ -6,10 +6,11 @@
 
 int main() {
 	setlocale(LC_CTYPE, "RUS");
-
+	
+	const int Ax = 2, Ay = 5, Bx = 5, By = 1, Cx = 2, Cy = -4; //координаты точек вершин треугольника
 	double x, y;
 	double S, S1, S2, S3;
-	const int Ax = 2, Ay = 5, Bx = 5, By = 1, Cx = 2, Cy = -4; //координаты точек вершин треугольника
+	
 	
 	printf("Введите координату х: ");
 	scanf("%lf", &x);
@@ -36,4 +37,5 @@ int main() {
 		printf("\nТочка с координатами x = %.1f и y = %.1f не принадлежит к данной заштрихованной области.\n", x, y);
 
 	}
+
 }
